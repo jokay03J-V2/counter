@@ -6,8 +6,7 @@ let time = 0;
 
 result.textContent = time;
 
-let interval = setInterval(() => {
+setInterval(() => {
     time++
     result.textContent = time;
-    if(time >= 9) clearInterval(interval);
 }, 1000)
